@@ -22,11 +22,16 @@
   "dependencies": {
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^9.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
     "nest-system": "github:bhcosta90-codepix/nest-system",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
-    "ts-package-system": "github:bhcosta90-codepix/ts-package-system"
+    "sqlite3": "^5.1.6",
+    "ts-package-system": "github:bhcosta90-codepix/ts-package-system",
+    "typeorm": "^0.3.17"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
