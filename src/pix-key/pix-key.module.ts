@@ -6,8 +6,7 @@ import { DatabaseModule } from 'src/database/database.module';
 @Module({
   imports: [DatabaseModule],
   controllers: [PixKeyController],
-  providers: [
-    ...pixKeyProvider,
-  ]
+  providers: [...pixKeyProvider],
+  exports: ['PIX_KEY_REPOSITORY'],
 })
 export class PixKeyModule {}

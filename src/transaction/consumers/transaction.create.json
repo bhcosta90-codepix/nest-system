@@ -1,0 +1,8 @@
+{
+  "id": "d0b956fb-46a4-4c89-9d7a-4bab8c414919",
+  "description": "transaction description",
+  "value": 50,
+  "bank": "ed56c514-9b2f-43d7-8dbd-05e50db7ae5e",
+  "kind": "email",
+  "key": "test@test.com"
+}
